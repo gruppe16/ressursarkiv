@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
+=======
+body{
+    background-color: aqua;
+}
+>>>>>>> Stashed changes
 $color_1: var(--black);
 $color_2: var(--grey );
 $color_3: white;
@@ -17,8 +23,11 @@ $border-top-color_1: var(--tabs_color);
 body {
 	font-family: $font-family_1;
 	font-size: var(--rootsize);
+<<<<<<< Updated upstream
 	margin-left: 17rem;
 	margin-right: 17rem;
+=======
+>>>>>>> Stashed changes
 }
 div {
 	header {
@@ -55,3 +64,14 @@ nav {
 	border-top-color: $border-top-color_1;
 	padding-left: 40px;
 }
+<<<<<<< Updated upstream
+=======
+@media only screen and (max-width: 670px) {
+	nav {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		grid-row-gap: 2rem;
+	}
+}
+>>>>>>> Stashed changes
