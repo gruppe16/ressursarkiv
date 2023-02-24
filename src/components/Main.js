@@ -22,7 +22,7 @@ export default function Main ({resources}){
     <Random title={resource.category} text={resource.text} />
   </Link>
 ))}
-             </TabMenu> */}
+  </TabMenu> */}
              <TabMenu>
   {resources.map((resource) => (
     <Link
