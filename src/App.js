@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import './css/main.css'
+import './css/main.css';
+import Header from './components/Header';
+import TabMenu from './components/TabMenu';
+
 
 function App() {
   return (
-    <h1>Hei!</h1>
+    <div>
+      <Header />
+      <TabMenu />
+    </div>
   );
 }
 
