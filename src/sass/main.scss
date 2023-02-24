@@ -1,0 +1,63 @@
+$color_1: var(--black);
+$color_2: var(--grey );
+$color_3: white;
+$font-family_1: 'Roboto', sans-serif;
+$background-color_1: var(--tabs_color);
+$border-color_1: var(--black);
+$border-color_2: var(--tabs_color);
+$border-top-color_1: var(--tabs_color);
+
+@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap";
+:root {
+	--tabs_color: #25DFE6;
+	--black: #000000;
+	--maxwidth: 1200px;
+	--rootsize: 20px;
+}
+body {
+	font-family: $font-family_1;
+	font-size: var(--rootsize);
+}
+div {
+	header {
+		border: solid;
+		border-color: $border-color_1;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		h1 {
+			padding-left: 40px;
+			color: $color_1;
+		}
+	}
+}
+nav {
+	color: $color_1;
+}
+.tabslink {
+	border-style: solid;
+	border-color: $border-color_1;
+	color: $color_2;
+	padding: 1rem;
+	margin-right: 1rem;
+	font-size: 1rem;
+	&:focus {
+		background-color: $background-color_1;
+		border-color: $border-color_2;
+		color: $color_3;
+		font-size: 1rem;
+	}
+}
+#resource-info {
+	border-style: solid;
+	border-top-width: 8px;
+	border-top-color: $border-top-color_1;
+	padding-left: 40px;
+}
+@media only screen and (max-width: 670px) {
+	nav {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		grid-row-gap: 2rem;
+	}
+} 
