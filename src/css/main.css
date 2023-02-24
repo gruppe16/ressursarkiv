@@ -1,70 +1,60 @@
-/*# sourceMappingURL=main.css.map */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
-
+@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap";
 :root {
-    --tabs_color: #25DFE6;
-    --black: #000000; 
-    --maxwidth: 1200px;
-    --rootsize: 20px;
+  --tabs_color: #25DFE6;
+  --black: #000000;
+  --maxwidth: 1200px;
+  --rootsize: 20px;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: var(--rootsize);
- 
 
-    
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--rootsize);
 }
 
 div header {
-    border: solid;
-    border-color: var(--black);
-    margin-bottom: 50px;
-    margin-top: 50px;
+  border: solid;
+  border-color: var(--black);
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
-
 div header h1 {
-    padding-left: 40px;
-    color: var(--black);
+  padding-left: 40px;
+  color: var(--black);
 }
 
-nav{
-    color: var(--black);
-    
+nav {
+  color: var(--black);
 }
 
-.tabslink{
-    border-style: solid;
-   
-    border-color: var(--black);
-    color: var(--grey );
-    padding: 1rem;
-    margin-right: 1rem;
-    font-size: 1rem;
-   
+.tabslink {
+  border-style: solid;
+  border-color: var(--black);
+  color: var(--grey);
+  padding: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
 }
-.tabslink:focus{
-    background-color: var(--tabs_color);
-    border-color: var(--tabs_color);
-    color: white;
-    font-size: 1rem;
+.tabslink:focus {
+  background-color: var(--tabs_color);
+  border-color: var(--tabs_color);
+  color: white;
+  font-size: 1rem;
 }
 
-#resource-info{
-   border-style: solid;
-   border-top-width: 8px; 
-   border-top-color: var(--tabs_color);
-   padding-left: 40px;
-   
+#resource-info {
+  border-style: solid;
+  border-top-width: 8px;
+  border-top-color: var(--tabs_color);
+  padding-left: 40px;
 }
 
 @media only screen and (max-width: 670px) {
-
-    nav{
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      grid-row-gap: 2rem;
-
-    }
-      
+  nav {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 2rem;
   }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvbWFpbi5zY3NzIiwibWFpbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU1Esd0lBQUE7QUFDUjtFQUNDLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FDUkQ7O0FEVUE7RUFDQyxpQ0FkZTtFQWVmLDBCQUFBO0FDUEQ7O0FEVUM7RUFDQyxhQUFBO0VBQ0EsMEJBbEJlO0VBbUJmLG1CQUFBO0VBQ0EsZ0JBQUE7QUNQRjtBRFFFO0VBQ0Msa0JBQUE7RUFDQSxtQkE1Qk87QUNzQlY7O0FEVUE7RUFDQyxtQkFqQ1M7QUMwQlY7O0FEU0E7RUFDQyxtQkFBQTtFQUNBLDBCQWhDZ0I7RUFpQ2hCLGtCQXJDUztFQXNDVCxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0FDTkQ7QURPQztFQUNDLG1DQXZDbUI7RUF3Q25CLCtCQXRDZTtFQXVDZixZQTNDUTtFQTRDUixlQUFBO0FDTEY7O0FEUUE7RUFDQyxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsbUNBN0NvQjtFQThDcEIsa0JBQUE7QUNMRDs7QURPQTtFQUNDO0lBQ0MsYUFBQTtJQUNBLDJCQUFBO0lBQ0Esd0JBQUE7SUFDQSxrQkFBQTtFQ0pBO0FBQ0YiLCJmaWxlIjoibWFpbi5jc3MifQ== */
