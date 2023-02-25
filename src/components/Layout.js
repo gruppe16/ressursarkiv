@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
+import TabMenu from "./TabMenu";
+import Header from './Header';
 
 
 export default function Layout() {
     return(
         <div >
-            <header>
-            <h1>Ressursarkiv</h1> 
-            </header>
+            <Header/>
 
-            <main>
+           <TabMenu/>
 
-            </main>
+            
+        
 
 
         </div>

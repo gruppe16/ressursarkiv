@@ -11,16 +11,18 @@ $border-top-color_1: var(--tabs_color);
 :root {
 	--tabs_color: #25DFE6;
 	--black: #000000;
-	--maxwidth: 1200px;
+	--maxwidth: 800px;
 	--rootsize: 20px;
 }
 body {
 	font-family: $font-family_1;
 	font-size: var(--rootsize);
+	max-width: var(--maxwidth);
+	margin: 0 auto;
 }
 div {
 	header {
-		border: solid;
+		border: 2px solid var(--black);
 		border-color: $border-color_1;
 		margin-bottom: 50px;
 		margin-top: 50px;
