@@ -1,8 +1,8 @@
 import TabMenu from "./TabMenu";
 import Header from './Header';
-import Main from "./Main";
+//import Main from "./Main";
 import { Link, Outlet } from "react-router-dom";
-import Body from "./Body";
+//import Body from "./Body";
 
 
 export default function Layout() {
@@ -15,11 +15,11 @@ export default function Layout() {
         //    <TabMenu/>
         // </div>
         <div id="container">
-        <header>
-          {/* <Link to="/"> */}
-              <h1>Ressursarkiv</h1>
-          {/* </Link> */}
-        </header>
+        
+          { /*<Link to="/"> */ } 
+             <Header/>
+           { /*</Link> */}
+       
             <TabMenu/>
         <main className="resource-info">
            <Outlet/>
