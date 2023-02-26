@@ -1,4 +1,10 @@
+<<<<<<< Updated upstream
 function TabMenu() {
+=======
+import { Link } from "react-router-dom";
+
+export default function TabMenu() {
+>>>>>>> Stashed changes
     return (
       <nav className="tab-menu">
         <button className="tabslink" id="html-button">HTML</button>
