@@ -8,43 +8,43 @@ export default function Main ({resources}){
     const {category} = useParams()
     const name =resources.find((rec) => rec.category === category)
     return(
-        <div>
+        <section>
             <Header />
-            {/* <TabMenu>
-            {resources.map((resource) => (
-  <Link
-    key={resource.category}
-    to={`/category/${resource.category}`}
-    className={`tabslink ${
-      category === resource.category ? "active" : ""
-    }`}
-  >
-    <Random title={resource.category} text={resource.text} />
-  </Link>
-))}
-  </TabMenu> */}
              <TabMenu>
   {resources.map((resource) => (
-    <Link
-    key={resource.category}
-    to={`/category/${resource.category}`}
-    className={`tabslink ${
-      category === resource.category ? "active" : ""
-    }`}
-  >
+      <Link
+      key={resource.category}
+      to={`/category/${resource.category}`}
+      className={`tabslink ${
+          category === resource.category ? "active" : ""
+        }`}
+        >
     <Random title={resource.category} text={resource.text} />
   </Link>
   ))}
 </TabMenu>
-             <main>
+             <main className="resource-info">
             <h1>{name.category}</h1>
             <p>{name.text}</p>
             <ul>
                 {name.sources.map((step, index) =>{
-                 return   <li key={"step" + index}><a href={step.url}>{step.title}</a></li>
+                    return   <li key={"step" + index}><a href={step.url}>{step.title}</a></li>
                 })}
             </ul>
         </main>
-        </div>
+        </section>
     )
 }
+{/* <TabMenu>
+{resources.map((resource) => (
+<Link
+key={resource.category}
+to={`/category/${resource.category}`}
+className={`tabslink ${
+category === resource.category ? "active" : ""
+}`}
+>
+<Random title={resource.category} text={resource.text} />
+</Link>
+))}
+</TabMenu> */}

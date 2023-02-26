@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// function TabMenu() {
+// export default function TabMenu() {
 //     return (
 //       <nav className="tab-menu">
 //         <button className="tabslink" id="html-button">HTML</button>

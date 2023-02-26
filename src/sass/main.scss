@@ -42,6 +42,7 @@ nav {
 	padding: 1rem;
 	margin-right: 1rem;
 	font-size: 1rem;
+	text-decoration: none;
 	&:focus {
 		background-color: $background-color_1;
 		border-color: $border-color_2;
@@ -49,11 +50,21 @@ nav {
 		font-size: 1rem;
 	}
 }
-#resource-info {
-	border-style: solid;
-	border-top-width: 8px;
-	border-top-color: $border-top-color_1;
-	padding-left: 40px;
+.resource-info {
+	// border-style: solid;
+	// border-top-width: 8px;
+	// border-top-color: $border-top-color_1;
+	// padding-left: 40px;
+	font-size: 17px;
+  border: 1px solid;
+  border-top: 10px solid var(--tabs_color);
+  padding: 7px;
+  padding-bottom: 90px;
+  margin-top: 15px;
+  a{
+	color: var(--tabs_color);
+	
+  }
 }
 @media only screen and (max-width: 670px) {
 	nav {

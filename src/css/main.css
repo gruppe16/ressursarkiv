@@ -2,19 +2,19 @@
 :root {
   --tabs_color: #25DFE6;
   --black: #000000;
-  --maxwidth: 1200px;
+  --maxwidth: 800px;
   --rootsize: 20px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: var(--rootsize);
-  
-
+  max-width: var(--maxwidth);
+  margin: 0 auto;
 }
 
 div header {
-  border: solid;
+  border: 2px solid var(--black);
   border-color: var(--black);
   margin-bottom: 50px;
   margin-top: 50px;
@@ -35,6 +35,7 @@ nav {
   padding: 1rem;
   margin-right: 1rem;
   font-size: 1rem;
+  text-decoration: none;
 }
 .tabslink:focus {
   background-color: var(--tabs_color);
@@ -43,11 +44,16 @@ nav {
   font-size: 1rem;
 }
 
-#resource-info {
-  border-style: solid;
-  border-top-width: 8px;
-  border-top-color: var(--tabs_color);
-  padding-left: 40px;
+.resource-info {
+  font-size: 17px;
+  border: 1px solid;
+  border-top: 10px solid var(--tabs_color);
+  padding: 7px;
+  padding-bottom: 90px;
+  margin-top: 15px;
+}
+.resource-info a {
+  color: var(--tabs_color);
 }
 
 @media only screen and (max-width: 670px) {
@@ -59,4 +65,4 @@ nav {
   }
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvbWFpbi5zY3NzIiwibWFpbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU1Esd0lBQUE7QUFDUjtFQUNDLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FDUkQ7O0FEVUE7RUFDQyxpQ0FkZTtFQWVmLDBCQUFBO0FDUEQ7O0FEVUM7RUFDQyxhQUFBO0VBQ0EsMEJBbEJlO0VBbUJmLG1CQUFBO0VBQ0EsZ0JBQUE7QUNQRjtBRFFFO0VBQ0Msa0JBQUE7RUFDQSxtQkE1Qk87QUNzQlY7O0FEVUE7RUFDQyxtQkFqQ1M7QUMwQlY7O0FEU0E7RUFDQyxtQkFBQTtFQUNBLDBCQWhDZ0I7RUFpQ2hCLGtCQXJDUztFQXNDVCxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0FDTkQ7QURPQztFQUNDLG1DQXZDbUI7RUF3Q25CLCtCQXRDZTtFQXVDZixZQTNDUTtFQTRDUixlQUFBO0FDTEY7O0FEUUE7RUFDQyxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsbUNBN0NvQjtFQThDcEIsa0JBQUE7QUNMRDs7QURPQTtFQUNDO0lBQ0MsYUFBQTtJQUNBLDJCQUFBO0lBQ0Esd0JBQUE7SUFDQSxrQkFBQTtFQ0pBO0FBQ0YiLCJmaWxlIjoibWFpbi5jc3MifQ== */
+/*# sourceMappingURL=main.css.map */

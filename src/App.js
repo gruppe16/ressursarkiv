@@ -6,6 +6,7 @@ import Main from './components/Main';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import resources from './recources/ressurser';
 import Layout from './components/Layout';
+import Body from './components/Body';
 
 
 
@@ -18,9 +19,9 @@ function App() {
       {/* <Main /> */}
     <Routes>
       <Route element={<Layout/>}>
-       <Route index element={<Main resources={resources}/>} />
+       <Route index element={<Body resources={resources}/>} />
       {/* <Route path=':category' element={<Test resources={resources}/>} /> */}
-        <Route path='/category/:category' element={<Main resources={resources}/>} />
+        <Route path='/category/:category' element={<Body resources={resources}/>} />
       </Route>
     </Routes>
     </div>
