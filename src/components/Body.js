@@ -8,10 +8,10 @@ export default function Body({recources}){
     if (!name) {
         return (
             <section>
-            <h1>{defaultCategory .category}</h1>
-            <p>{defaultCategory .text}</p>
+            <h1>{defaultCategory.category}</h1>
+            <p>{defaultCategory.text}</p>
             <ul>
-                {defaultCategory .sources.map((step, index) => (
+                {defaultCategory.sources.map((step, index) => (
                     <li key={"step" + index}><a href={step.url}>{step.title}</a></li>
                 ))}
             </ul>
