@@ -38,6 +38,7 @@ div header {
   font-size: 1rem;
   text-decoration: none;
   border-bottom: none;
+  border-color: var(--grey);
 }
 .tabslink:focus {
   background-color: var(--tabs_color);
@@ -53,6 +54,7 @@ div header {
   padding: 7px;
   padding-bottom: 90px;
   margin-top: 15px;
+  color: var(--grey);
 }
 .resource-info a {
   color: var(--tabs_color);
